@@ -14,9 +14,9 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 
-char auth[] = "oHjs7aSQTJHZR4evyCMSRABAfohMSAi2";
-char ssid[] = "hlo12";
-char pass[] = "1231231234";
+char auth[] = "0000000aSQTJHZR4evyCMSRABAfohMSAi2";
+char ssid[] = "000";
+char pass[] = "0000000000";
 int accuracy = 1;       //higher the number the voltage will be stable lower values will fluctuate
 int out = D6;           // the PWM pin the out is attached to
 int Vmaxinput = 27.602;
